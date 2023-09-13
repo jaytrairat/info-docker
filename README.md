@@ -38,5 +38,10 @@ EXPOSE 80
 
 # Start Apache server
 CMD ["apache2-foreground"]
+```
 
+## PHP Docker Run
+
+```sh
+docker run -d -p xxxx:80 --add-host=host.docker.internal:host-gateway xxxx
 ```
